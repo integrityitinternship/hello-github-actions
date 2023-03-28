@@ -1,8 +1,8 @@
 name: Post welcome comment
-on:
-  pull-request:
-  types: [opened]
- permissions:
+on: 
+  pull_request:
+    types: [opened]
+permissions:
   pull-requests: write
 jobs:
   build:
